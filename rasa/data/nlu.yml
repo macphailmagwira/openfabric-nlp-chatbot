@@ -1,0 +1,147 @@
+version: "3.1"
+
+nlu:
+- intent: information
+  examples: |
+    - What is photosynthesis?
+    - What is the structure of an atom?
+    - What are the four fundamental forces of nature?
+    - What is the difference between renewable and non-renewable energy sources?
+    - What are the stages of mitosis?
+    - What is the greenhouse effect?
+    - What is the function of enzymes in biological systems?
+    - What is the difference between a virus and a bacterium?
+    - What is the role of chlorophyll in plant cells?
+    - What are the properties of electromagnetic waves?
+    - How does the circulatory system work?
+    - What is the role of neurotransmitters in the nervous system?
+    - What is the difference between a genotype and a phenotype?
+    - What is the relationship between mass and energy?
+    - What is the structure of DNA?
+    - How does the immune system defend the body against pathogens?
+    - What is the process of natural selection?
+    - What is the difference between aerobic and anaerobic respiration?
+    - What is the function of the kidneys in the urinary system?
+    - What is the difference between a chemical change and a physical change?
+    - What is the mechanism of action of antibiotics?
+    - What is the process of meiosis?
+    - What is the difference between a prokaryotic and a eukaryotic cell?
+    - What is the function of the respiratory system?
+    - What is the difference between a covalent and an ionic bond?
+    - How do plants respond to stimuli?
+    - What is the process of protein synthesis?
+    - What is the role of hormones in the endocrine system?
+    - What is the difference between a solution and a suspension?
+    - What is the process of cell division?
+    - What is the function of the digestive system?
+    - What is the relationship between force and motion?
+    - What is the difference between a metal and a non-metal?
+    - What is the process of gene expression?
+    - What is the function of the liver in the digestive system?
+    - What is the difference between a solid, liquid, and gas?
+    - What is the process of DNA replication?
+    - What is the role of neurotransmitters in the endocrine system?
+    - What is the difference between an acid and a base?
+    - What is the process of blood clotting?
+    - What is the function of the excretory system?
+    - What is the difference between a compound and a mixture?
+    - What is the process of synaptic transmission?
+    - What is the role of white blood cells in the immune system?
+    - What is the difference between a hypothesis and a theory?
+    - What is the process of osmosis?
+    - What is the function of the lymphatic system?
+    - What is the difference between a homogenous and a heterogenous mixture?
+    - What is the process of enzyme catalysis?
+    - What is the role of platelets in the circulatory system?
+
+
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
