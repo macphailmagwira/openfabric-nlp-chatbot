@@ -2,6 +2,12 @@ version: "3.1"
 
 stories:
 
+
+- story: ask science question
+  steps:
+  - intent: information
+  - action: utter_information
+
 - story: happy path
   steps:
   - intent: greet
