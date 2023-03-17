@@ -1,61 +1,33 @@
 version: "3.1"
 
 nlu:
-- intent: information
-  examples: |
-    - What is photosynthesis?
-    - What is the structure of an atom?
-    - What are the four fundamental forces of nature?
-    - What is the difference between renewable and non-renewable energy sources?
-    - What are the stages of mitosis?
-    - What is the greenhouse effect?
-    - What is the function of enzymes in biological systems?
-    - What is the difference between a virus and a bacterium?
-    - What is the role of chlorophyll in plant cells?
-    - What are the properties of electromagnetic waves?
-    - How does the circulatory system work?
-    - What is the role of neurotransmitters in the nervous system?
-    - What is the difference between a genotype and a phenotype?
-    - What is the relationship between mass and energy?
-    - What is the structure of DNA?
-    - How does the immune system defend the body against pathogens?
-    - What is the process of natural selection?
-    - What is the difference between aerobic and anaerobic respiration?
-    - What is the function of the kidneys in the urinary system?
-    - What is the difference between a chemical change and a physical change?
-    - What is the mechanism of action of antibiotics?
-    - What is the process of meiosis?
-    - What is the difference between a prokaryotic and a eukaryotic cell?
-    - What is the function of the respiratory system?
-    - What is the difference between a covalent and an ionic bond?
-    - How do plants respond to stimuli?
-    - What is the process of protein synthesis?
-    - What is the role of hormones in the endocrine system?
-    - What is the difference between a solution and a suspension?
-    - What is the process of cell division?
-    - What is the function of the digestive system?
-    - What is the relationship between force and motion?
-    - What is the difference between a metal and a non-metal?
-    - What is the process of gene expression?
-    - What is the function of the liver in the digestive system?
-    - What is the difference between a solid, liquid, and gas?
-    - What is the process of DNA replication?
-    - What is the role of neurotransmitters in the endocrine system?
-    - What is the difference between an acid and a base?
-    - What is the process of blood clotting?
-    - What is the function of the excretory system?
-    - What is the difference between a compound and a mixture?
-    - What is the process of synaptic transmission?
-    - What is the role of white blood cells in the immune system?
-    - What is the difference between a hypothesis and a theory?
-    - What is the process of osmosis?
-    - What is the function of the lymphatic system?
-    - What is the difference between a homogenous and a heterogenous mixture?
-    - What is the process of enzyme catalysis?
-    - What is the role of platelets in the circulatory system?
+- intent: ask_for_single_definition
+  examples: |  
+    - What does [scientific term] mean?
+    - Can you explain [scientific term] to me?
+    - I'm not sure i understand the meaning of [scientific term].
+    - Could you define [scientific term] for me?
+    - What is the definition of [scientific term]?
+    - Can you give me a simple definition of [scientific term]?
+    - I've heard the term [scientific term] before, but i'm not sure what it means.
+    - How would you describe [scientific term]?
+    - What exactly is [scientific term]?
+    - I need a clear explanation of [scientific term].
+    - Could you clarify the definition of [scientific term]?
+    - Can you tell me what [scientific term] means in simple terms?
+    - What's the definition of [scientific term], in layman's terms?
+    - Could you break down the definition of [scientific term] for me?
+    - I'm struggling to understand [scientific term], can you help me out?
+    - Can you give me a brief summary of [scientific term]?
+    - How would you explain [scientific term] to someone with no background in science?
+    - I'm not familiar with the term [scientific term], can you explain it to me?
+    - I'm trying to understand [scientific term] better. Could you provide more information?
+    - What's the purpose of [scientific term]?
+    - I need a more precise definition of [scientific term].
+    - What's the etymology of [scientific term]?
+    - Could you explain the origin of the term [scientific term]?
 
 
-    
 - intent: greet
   examples: |
     - hey

@@ -5,7 +5,7 @@ stories:
 
 - story: ask science question
   steps:
-  - intent: information
+  - intent: ask_for_single_definition
   - action: utter_information
 
 - story: happy path

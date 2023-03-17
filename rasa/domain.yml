@@ -1,7 +1,7 @@
 version: "3.1"
 
 intents:
-  - information
+  - ask_for_single_definition
   - greet
   - goodbye
   - affirm
