@@ -1,7 +1,3 @@
-import os
-import random
-import warnings
-import asyncio
 from ontology_dc8f06af066e4a7880a5938933236037.simple_text import SimpleText
 import spacy
 from openfabric_pysdk.context import OpenfabricExecutionRay
@@ -16,11 +12,15 @@ from responses.responses import greetings
 from responses.responses import answer_style
 
 
+ 
 
-agent = Agent.load("./rasa/models/20230315-161107-proper-torpedo.tar.gz")
+# Load Rasa agent and Spacy NLP model
+agent = Agent.load("./rasa/models/20230318-022945-frosty-map.tar.gz")
 nlp = spacy.load("en_core_web_sm")
-hash_table = HashTable(prehashed=science_defintions)
 
+# Load ScienceBot components
+hash_table = HashTable(prehashed=science_defintions)
+science_bot = ScienceBot(agent, nlp, hash_table, bot_responses, greetings, answer_style)
 
 def config(configuration: ConfigClass):
     # TODO Add code here
@@ -28,7 +28,6 @@ def config(configuration: ConfigClass):
 
 
 async def execute(request: SimpleText, ray: OpenfabricExecutionRay) -> SimpleText:
-    science_bot = ScienceBot(agent, nlp, hash_table, bot_responses,greetings,answer_style)
     output = []
     response = ""
 
@@ -39,24 +38,3 @@ async def execute(request: SimpleText, ray: OpenfabricExecutionRay) -> SimpleTex
         output.append(response)
 
     return SimpleText(dict(text=output))
-
-
-async def main():
-    config(None)
-    print(hash_table.get("atom"))
-    print(
-        "\n\nWelcome to ScienceBot! I'm here to help you with any questions you have about science. If you need to exit, remember to tell me\n\n"
-    )
-    while True:
-        user_input = input("\n\nWhat's your question or topic of interest?\n")
-        request = SimpleText(dict(text=[user_input]))
-        result = await execute(request, None)
-
-        print(result.text)
-
-        if user_input.lower() == "exit":
-            break
-
-
-if __name__ == "__main__":
-    asyncio.run(main())

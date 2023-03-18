@@ -147,7 +147,7 @@ print(len(definitions))
 
 hash_table = HashTable(len(names))
 for i, name in enumerate(names):
-    hash_table.insert(name, definitions[i])
+    hash_table.insert(name.lower(), definitions[i].lower())
 
 
 print(hash_table.table)

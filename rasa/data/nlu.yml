@@ -25,8 +25,57 @@ nlu:
     - What's the purpose of [scientific term]?
     - I need a more precise definition of [scientific term].
     - What's the etymology of [scientific term]?
-    - Could you explain the origin of the term [scientific term]?
-
+    - Could you explain the origin of the term [scientific term]? 
+    - What is the meaning behind the term [scientific term]?
+    - Can you give me an example that illustrates [scientific term]?
+    - What are some common misconceptions about [scientific term]?
+    - How does [scientific term] relate to other scientific concepts?
+    - What are the key characteristics of [scientific term]?
+    - Could you explain the significance of [scientific term] in greater detail?
+    - What are some applications of [scientific term] in real-world scenarios?
+    - What's the difference between [scientific term] and [related scientific term]?
+    - What are some potential implications of [scientific term] on society?
+    - How does [scientific term] tie into the larger field of science?
+    - What's the history behind [scientific term]?
+    - What inspired the creation of [scientific term]?
+    - How has the definition of [scientific term] changed over time?
+    - What experiments or studies have been conducted on [scientific term]?
+    - What are some key theories that relate to [scientific term]?
+    - Can you provide a working definition of [scientific term]?
+    - What are some common misunderstandings about [scientific term]?
+    - How does [scientific term] affect our daily lives?
+    - What are the benefits of studying [scientific term]?
+    - What are the potential drawbacks of [scientific term]?
+    - Can you explain [scientific term] using an analogy or metaphor?
+    - How does [scientific term] relate to the natural world?
+    - What are some recent developments in the study of [scientific term]?
+    - What are some unanswered questions regarding [scientific term]?
+    - What are some key terms that are often associated with [scientific term]?
+    - How does [scientific term] fit into the larger context of the universe?
+    - Can you explain [scientific term] using a real-world example?
+    - What are some ethical considerations that are associated with [scientific term]?
+    - How does [scientific term] relate to current scientific research?
+    - What are some controversies or debates surrounding [scientific term]?
+    - Can you provide a concise summary of the concept behind [scientific term]?
+    - What are the key features that distinguish [scientific term] from similar concepts?
+    - How does [scientific term] relate to the broader field of science?
+    - What are some common misconceptions about [scientific term], and why are they inaccurate?
+    - How does [scientific term] play a role in modern technological advancements?
+    - Can you explain [scientific term] using a simple analogy or example?
+    - What are some potential future applications of [scientific term]?
+    - What are some limitations or challenges associated with studying [scientific term]?
+    - How does [scientific term] impact current scientific thinking and understanding?
+    - What are some of the potential practical applications of [scientific term]?
+    - Can you describe how [scientific term] fits into the larger scientific framework?
+    - What are some of the important historical discoveries or developments that led to [scientific term]?
+    - What are some common misunderstandings about the broader field of science that [scientific term] is associated with?
+    - What are some of the key principles and theories that underpin [scientific term]?
+    - How do different researchers or scientists understand [scientific term] in different ways?
+    - Can you explain how [scientific term] is related to the natural world and natural phenomena?
+    - How does [scientific term] relate to other scientific disciplines or fields of study?
+    - What are some of the main controversies or debates surrounding [scientific term] in the scientific community?
+    - How has the definition or understanding of [scientific term] evolved over time?
+    - Can you explain the significance of [scientific term] in the context of the wider world and society?
 
 - intent: greet
   examples: |

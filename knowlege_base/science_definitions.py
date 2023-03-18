@@ -1,1 +1,190 @@
-science_defintions = [[], [['Hypothesis', 'A proposed explanation for an observation or phenomenon that can be tested']], [], [], [['Chemistry', 'The study of the composition, properties, and behavior of matter'], ['Thermodynamics', 'The study of heat and its relationship to other forms of energy']], [['Solar Energy', 'The study of using energy from the sun to produce electricity']], [['Neuroscience', 'The study of the nervous system and the brain']], [], [['Photosynthesis', 'The process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll']], [['Yeast', 'A single-celled organism used in scientific research and baking']], [], [], [['Astronomy', 'The study of celestial objects, such as stars, planets, and galaxies'], ['Quantum Computing', 'The study of the development of computer technology based on quantum theory']], [['Kinetics', 'The study of the rates of chemical reactions']], [['Geology', "The study of the Earth's physical structure and substance"]], [['Genetics', 'The study of heredity and the variation of inherited characteristics'], ['Quantum Mechanics', 'The branch of physics that deals with the behavior of matter and energy on a very small scale']], [], [], [['Immunology', 'The study of the immune system and its responses to pathogens'], ['Physics', 'The study of matter, energy, and the interactions between them']], [['DNA', 'A self-replicating material that carries genetic information'], ['Botany', 'The study of plants and their anatomy, growth, and classification'], ['Oxygen', 'A colorless, odorless gas that is essential for life'], ['Vaccination', 'The administration of a vaccine to stimulate the immune system and provide protection against a disease']], [], [], [['Relativity', 'The branch of physics that deals with the relationship between space and time'], ['Theory of Evolution', 'The scientific explanation for the diversity of life on Earth, proposed by Charles Darwin']], [['Cell Theory', 'The theory that all living things are composed of cells and that cells are the basic units of life'], ['Forensic Science', 'The use of scientific methods to solve crimes and legal issues'], ['Radioactivity', 'The emission of ionizing radiation or particles caused by the spontaneous disintegration of atomic nuclei']], [['Virus', 'An infectious agent that replicates inside the cells of living hosts']], [], [['Zoology', 'The study of animals and their behavior, physiology, and evolution']], [], [['Ecology', 'The study of the relationships between living organisms and their environment'], ['Nuclear Energy', 'The energy released during a nuclear reaction, such as fusion or fission']], [['Fossils', 'The remains or traces of organisms from a previous geological age'], ['Lithium', 'A soft, silvery-white metal with atomic number 3'], ['Wave', 'A disturbance that travels through space and time']], [], [["Kepler's Laws", 'Three laws that describe the motion of planets around the sun, proposed by Johannes Kepler'], ['Meteorology', "The study of the Earth's atmosphere and its weather patterns"]], [['X-rays', 'A type of electromagnetic radiation with a shorter wavelength than visible light']], [], [['Biology', 'The study of living organisms and their interactions with each other and the environment']], [], [['Water Cycle', 'The continuous movement of water on, above, and below the surface of the Earth'], ['Dendrochronology', 'The study of tree rings to determine past climate and environmental conditions']], [['Organic Chemistry', 'The study of compounds that contain carbon'], ['Ultraviolet', 'A type of electromagnetic radiation that is just beyond the violet end of the visible spectrum']], [['Ultraviolet Radiation', 'A type of electromagnetic radiation with a shorter wavelength than visible light']], [['Hydrology', "The study of water in the Earth's system"], ['Joule', 'A unit of energy used in physics, named after James Prescott Joule'], ['Jupiter', 'The largest planet in the solar system'], ['Laser', 'A device that emits a narrow, intense beam of light']], [['Electromagnetism', 'The study of the relationships between electric currents and magnetic fields']], [], [], [['Acid Rain', 'Rainfall that is more acidic than normal'], ['Satellite', 'An object in space that orbits around a planet or a star']], [], [['Infrared', 'A type of electromagnetic radiation with a longer wavelength than visible light']], [], [], []]
+science_defintions = [
+    [
+        ["joule", "a unit of energy used in physics, named after james prescott joule"],
+        [
+            "photosynthesis",
+            "the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll",
+        ],
+    ],
+    [],
+    [
+        [
+            "ecology",
+            "the study of the relationships between living organisms and their environment",
+        ],
+        [
+            "relativity",
+            "the branch of physics that deals with the relationship between space and time",
+        ],
+        ["yeast", "a single-celled organism used in scientific research and baking"],
+        [
+            "hypothesis",
+            "a proposed explanation for an observation or phenomenon that can be tested",
+        ],
+    ],
+    [],
+    [
+        [
+            "ultraviolet radiation",
+            "a type of electromagnetic radiation with a shorter wavelength than visible light",
+        ]
+    ],
+    [
+        [
+            "dendrochronology",
+            "the study of tree rings to determine past climate and environmental conditions",
+        ],
+        [
+            "kepler's laws",
+            "three laws that describe the motion of planets around the sun, proposed by johannes kepler",
+        ],
+    ],
+    [
+        [
+            "thermodynamics",
+            "the study of heat and its relationship to other forms of energy",
+        ],
+        [
+            "nuclear energy",
+            "the energy released during a nuclear reaction, such as fusion or fission",
+        ],
+    ],
+    [
+        ["lithium", "a soft, silvery-white metal with atomic number 3"],
+        [
+            "radioactivity",
+            "the emission of ionizing radiation or particles caused by the spontaneous disintegration of atomic nuclei",
+        ],
+        ["satellite", "an object in space that orbits around a planet or a star"],
+    ],
+    [["geology", "the study of the earth's physical structure and substance"]],
+    [
+        ["dna", "a self-replicating material that carries genetic information"],
+        [
+            "quantum computing",
+            "the study of the development of computer technology based on quantum theory",
+        ],
+    ],
+    [["physics", "the study of matter, energy, and the interactions between them"]],
+    [
+        [
+            "forensic science",
+            "the use of scientific methods to solve crimes and legal issues",
+        ],
+        ["wave", "a disturbance that travels through space and time"],
+    ],
+    [
+        [
+            "astronomy",
+            "the study of celestial objects, such as stars, planets, and galaxies",
+        ],
+        [
+            "chemistry",
+            "the study of the composition, properties, and behavior of matter",
+        ],
+    ],
+    [],
+    [
+        [
+            "genetics",
+            "the study of heredity and the variation of inherited characteristics",
+        ],
+        [
+            "x-rays",
+            "a type of electromagnetic radiation with a shorter wavelength than visible light",
+        ],
+    ],
+    [],
+    [],
+    [
+        ["organic chemistry", "the study of compounds that contain carbon"],
+        ["oxygen", "a colorless, odorless gas that is essential for life"],
+    ],
+    [],
+    [["laser", "a device that emits a narrow, intense beam of light"]],
+    [],
+    [
+        [
+            "infrared",
+            "a type of electromagnetic radiation with a longer wavelength than visible light",
+        ]
+    ],
+    [["immunology", "the study of the immune system and its responses to pathogens"]],
+    [],
+    [
+        ["kinetics", "the study of the rates of chemical reactions"],
+        [
+            "quantum mechanics",
+            "the branch of physics that deals with the behavior of matter and energy on a very small scale",
+        ],
+        [
+            "solar energy",
+            "the study of using energy from the sun to produce electricity",
+        ],
+        [
+            "cell theory",
+            "the theory that all living things are composed of cells and that cells are the basic units of life",
+        ],
+    ],
+    [],
+    [
+        [
+            "fossils",
+            "the remains or traces of organisms from a previous geological age",
+        ],
+        [
+            "theory of evolution",
+            "the scientific explanation for the diversity of life on earth, proposed by charles darwin",
+        ],
+    ],
+    [],
+    [
+        [
+            "biology",
+            "the study of living organisms and their interactions with each other and the environment",
+        ]
+    ],
+    [["acid rain", "rainfall that is more acidic than normal"]],
+    [["zoology", "the study of animals and their behavior, physiology, and evolution"]],
+    [],
+    [
+        [
+            "ultraviolet",
+            "a type of electromagnetic radiation that is just beyond the violet end of the visible spectrum",
+        ]
+    ],
+    [
+        [
+            "vaccination",
+            "the administration of a vaccine to stimulate the immune system and provide protection against a disease",
+        ]
+    ],
+    [],
+    [
+        [
+            "electromagnetism",
+            "the study of the relationships between electric currents and magnetic fields",
+        ]
+    ],
+    [["jupiter", "the largest planet in the solar system"]],
+    [["hydrology", "the study of water in the earth's system"]],
+    [],
+    [],
+    [["virus", "an infectious agent that replicates inside the cells of living hosts"]],
+    [],
+    [],
+    [["neuroscience", "the study of the nervous system and the brain"]],
+    [],
+    [],
+    [],
+    [
+        [
+            "water cycle",
+            "the continuous movement of water on, above, and below the surface of the earth",
+        ]
+    ],
+    [
+        ["botany", "the study of plants and their anatomy, growth, and classification"],
+        ["meteorology", "the study of the earth's atmosphere and its weather patterns"],
+    ],
+]
