@@ -21,10 +21,3 @@ You are free to use any package or library you see feet as long as you follow th
 The application can be executed in two different ways:
 * locally by running the `start.sh` 
 * on in a docker container using `Dockerfile` 
-
-## Submission
-Your solution must be uploaded on GitHub, and submit us the link in **max 1 week** after receiving the task.
-
-## Note
-Keep in mind that this is the project that will be used to evaluate your skills.
-So we do expect you to make sure that the app is fully functional and doesn't have any obvious missing pieces.
