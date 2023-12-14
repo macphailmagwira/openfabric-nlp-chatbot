@@ -1,10 +1,6 @@
-# AI Junior Developer (Intern) Test 
-Welcome! and thank you for applying! 
-
-## Requirement
 The current project has the blueprint structure of an AI App. 
 
-Your mission is to implement an 💬NLP chatbot **answering questions about science**. 
+An 💬NLP chatbot **answering questions about science**. 
 
 You will add your logic to the `main.py` file inside the `execute` function. 
 ```python
